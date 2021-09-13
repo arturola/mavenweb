@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletPruebasRemoto</servlet-name>
+  	<display-name>ServletPruebasRemoto</display-name>
+  	<description></description>
+  	<servlet-class>mavenweb.servlets.ServletPruebasRemoto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletPruebasRemoto</servlet-name>
+  	<url-pattern>/ServletPruebasRemoto</url-pattern>
+  </servlet-mapping>
 </web-app>
